@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -tnbrico/python-docker-flask:latest .'
+				sh 'docker build -t nbrico/python-docker-flask:latest .'
 			}
 		}
 
